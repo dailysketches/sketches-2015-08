@@ -2,6 +2,9 @@ sketches-2015-08
 --
 This repository contains the full source code for all of the [Daily Sketches](http://dailysketches.github.io) created in the month of August 2015. This source code is published automatically along with each sketch I add to the [Daily Sketches website](http://dailysketches.github.io).
 
+
+[![Daily Sketches website](https://github.com/dailysketches/dailySketches/blob/master/images/website.png?raw=true)](https://dailysketches.github.io/) 
+
 Browse the sketches
 --
 There are two ways you can browse published sketches:
