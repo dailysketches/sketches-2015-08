@@ -10,7 +10,7 @@
 		8473E2CA1B70F67300DBCEBD /* ofxLayerMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8473E2C11B70F67300DBCEBD /* ofxLayerMask.cpp */; };
 		8473E2CF1B70F67900DBCEBD /* ofxTexturePlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8473E2CD1B70F67900DBCEBD /* ofxTexturePlane.cpp */; };
 		84B994D01B3F58090090FDD3 /* ofxGifEncoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84B994CD1B3F58090090FDD3 /* ofxGifEncoder.cpp */; };
-		84D2C4781B8A800C00F0AE0A /* ofxGifEncoderTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D2C4751B8A800C00F0AE0A /* ofxGifEncoderTemplate.cpp */; };
+		84D2C48A1B8A80B400F0AE0A /* ofxGifEncoderTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D2C4871B8A80B400F0AE0A /* ofxGifEncoderTemplate.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -63,7 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		840010751B423B5D008161E1 /* 2015-08-10Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2015-08-10Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840010751B423B5D008161E1 /* 2015-08-08Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2015-08-08Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8473E2C11B70F67300DBCEBD /* ofxLayerMask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxLayerMask.cpp; sourceTree = "<group>"; };
 		8473E2C21B70F67300DBCEBD /* ofxLayerMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxLayerMask.h; sourceTree = "<group>"; };
 		8473E2C41B70F67300DBCEBD /* alphaMask_ES2.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = alphaMask_ES2.frag; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		84B994CD1B3F58090090FDD3 /* ofxGifEncoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGifEncoder.cpp; sourceTree = "<group>"; };
 		84B994CE1B3F58090090FDD3 /* ofxGifEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGifEncoder.h; sourceTree = "<group>"; };
 		84B994CF1B3F58090090FDD3 /* ofxGifFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGifFrame.h; sourceTree = "<group>"; };
-		84D2C4751B8A800C00F0AE0A /* ofxGifEncoderTemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGifEncoderTemplate.cpp; sourceTree = "<group>"; };
-		84D2C4761B8A800C00F0AE0A /* ofxGifEncoderTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGifEncoderTemplate.h; sourceTree = "<group>"; };
+		84D2C4871B8A80B400F0AE0A /* ofxGifEncoderTemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGifEncoderTemplate.cpp; sourceTree = "<group>"; };
+		84D2C4881B8A80B400F0AE0A /* ofxGifEncoderTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGifEncoderTemplate.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -201,19 +201,19 @@
 			path = ../../../addons/ofxGifEncoder/src;
 			sourceTree = "<group>";
 		};
-		84D2C4711B8A800C00F0AE0A /* ofxSketchTemplates */ = {
+		84D2C4831B8A80B400F0AE0A /* ofxSketchTemplates */ = {
 			isa = PBXGroup;
 			children = (
-				84D2C4721B8A800C00F0AE0A /* src */,
+				84D2C4841B8A80B400F0AE0A /* src */,
 			);
 			name = ofxSketchTemplates;
 			sourceTree = "<group>";
 		};
-		84D2C4721B8A800C00F0AE0A /* src */ = {
+		84D2C4841B8A80B400F0AE0A /* src */ = {
 			isa = PBXGroup;
 			children = (
-				84D2C4751B8A800C00F0AE0A /* ofxGifEncoderTemplate.cpp */,
-				84D2C4761B8A800C00F0AE0A /* ofxGifEncoderTemplate.h */,
+				84D2C4871B8A80B400F0AE0A /* ofxGifEncoderTemplate.cpp */,
+				84D2C4881B8A80B400F0AE0A /* ofxGifEncoderTemplate.h */,
 			);
 			name = src;
 			path = ../../../addons/ofxSketchTemplates/src;
@@ -222,7 +222,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				84D2C4711B8A800C00F0AE0A /* ofxSketchTemplates */,
+				84D2C4831B8A80B400F0AE0A /* ofxSketchTemplates */,
 				8473E2CB1B70F67900DBCEBD /* ofxTexturePlane */,
 				8473E2BF1B70F67300DBCEBD /* ofxLayerMask */,
 				84B994CA1B3F58090090FDD3 /* ofxGifEncoder */,
@@ -285,7 +285,7 @@
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				E45BE5980E8CC70C009D7055 /* frameworks */,
-				840010751B423B5D008161E1 /* 2015-08-10Debug.app */,
+				840010751B423B5D008161E1 /* 2015-08-08Debug.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -311,9 +311,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* 2015-08-10 */ = {
+		E4B69B5A0A3A1756003C02F2 /* 2015-08-08 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "2015-08-10" */;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "2015-08-08" */;
 			buildPhases = (
 				E4B69B580A3A1756003C02F2 /* Sources */,
 				E4B69B590A3A1756003C02F2 /* Frameworks */,
@@ -325,9 +325,9 @@
 			dependencies = (
 				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
 			);
-			name = "2015-08-10";
+			name = "2015-08-08";
 			productName = myOFApp;
-			productReference = 840010751B423B5D008161E1 /* 2015-08-10Debug.app */;
+			productReference = 840010751B423B5D008161E1 /* 2015-08-08Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -338,7 +338,7 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "2015-08-10" */;
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "2015-08-08" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -359,7 +359,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				E4B69B5A0A3A1756003C02F2 /* 2015-08-10 */,
+				E4B69B5A0A3A1756003C02F2 /* 2015-08-08 */,
 			);
 		};
 /* End PBXProject section */
@@ -395,7 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D2C4781B8A800C00F0AE0A /* ofxGifEncoderTemplate.cpp in Sources */,
+				84D2C48A1B8A80B400F0AE0A /* ofxGifEncoderTemplate.cpp in Sources */,
 				84B994D01B3F58090090FDD3 /* ofxGifEncoder.cpp in Sources */,
 				8473E2CA1B70F67300DBCEBD /* ofxLayerMask.cpp in Sources */,
 				8473E2CF1B70F67900DBCEBD /* ofxTexturePlane.cpp in Sources */,
@@ -557,7 +557,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)",
 				);
-				PRODUCT_NAME = "2015-08-10Debug";
+				PRODUCT_NAME = "2015-08-08Debug";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -643,7 +643,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
 				);
-				PRODUCT_NAME = "2015-08-10";
+				PRODUCT_NAME = "2015-08-08";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -652,7 +652,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "2015-08-10" */ = {
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "2015-08-08" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B4E0A3A1720003C02F2 /* Debug */,
@@ -661,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "2015-08-10" */ = {
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "2015-08-08" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B600A3A1757003C02F2 /* Debug */,
