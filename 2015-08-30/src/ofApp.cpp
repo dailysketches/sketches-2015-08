@@ -8,8 +8,7 @@ End description */
 /* Snippet begin */
 void ofApp::setup(){
     ofSetWindowShape(500, 500);
-    gif.setupPaused(130, 176);
-    gif.fadeInOut(3, 2, ofColor::white);
+    gif.setupPaused(10, 50);
 
     masker.setup(1, ISOLATE_LAYERS);
     masker.toggleOverlay();
